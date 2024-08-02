@@ -1,0 +1,45 @@
+<!--<!DOCTYPE html>-->
+<!--<html lang="en">-->
+<!--<head>-->
+<!--    <meta charset="UTF-8">-->
+<!--    <meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+<!--    <title>FastAPI Demo</title>-->
+<!--    <link rel="stylesheet" href="{{ url_for('static', path='/style.css') }}">-->
+<!--</head>-->
+<!--<body>-->
+<!--    <div class="container">-->
+<!--        <h1>Welcome to FastAPI Demo</h1>-->
+<!--        <form method="POST" action="/submit">-->
+<!--            <label for="name">Name:</label>-->
+<!--            <input type="text" id="name" name="name"><br><br>-->
+<!--            <input type="submit" value="Submit">-->
+<!--        </form>-->
+<!--        {% if message %}-->
+<!--        <p>{{ message }}</p>-->
+<!--        {% endif %}-->
+<!--    </div>-->
+<!--</body>-->
+<!--</html>-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FastAPI Demo</title>
+    <link rel="stylesheet" href="{{ url_for('static', path='/style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to Flask Demo</h1>
+        <form method="POST" action="/submit">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name"><br><br>
+            <input type="submit" value="Submit">
+        </form>
+        {% if message %}
+        <p>{{ message }}</p>
+        {% endif %}
+    </div>
+</body>
+</html>
+
